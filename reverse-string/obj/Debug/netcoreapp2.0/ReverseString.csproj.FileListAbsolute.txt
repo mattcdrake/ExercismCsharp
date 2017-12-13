@@ -1,0 +1,14 @@
+C:\Exercism\csharp\reverse-string\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Exercism\csharp\reverse-string\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Exercism\csharp\reverse-string\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Exercism\csharp\reverse-string\bin\Debug\netcoreapp2.0\ReverseString.deps.json
+C:\Exercism\csharp\reverse-string\bin\Debug\netcoreapp2.0\ReverseString.runtimeconfig.json
+C:\Exercism\csharp\reverse-string\bin\Debug\netcoreapp2.0\ReverseString.runtimeconfig.dev.json
+C:\Exercism\csharp\reverse-string\bin\Debug\netcoreapp2.0\ReverseString.dll
+C:\Exercism\csharp\reverse-string\bin\Debug\netcoreapp2.0\ReverseString.pdb
+C:\Exercism\csharp\reverse-string\obj\Debug\netcoreapp2.0\ReverseString.csproj.CoreCompileInputs.cache
+C:\Exercism\csharp\reverse-string\obj\Debug\netcoreapp2.0\ReverseString.AssemblyInfoInputs.cache
+C:\Exercism\csharp\reverse-string\obj\Debug\netcoreapp2.0\ReverseString.AssemblyInfo.cs
+C:\Exercism\csharp\reverse-string\obj\Debug\netcoreapp2.0\ReverseString.dll
+C:\Exercism\csharp\reverse-string\obj\Debug\netcoreapp2.0\ReverseString.pdb
+C:\Exercism\csharp\reverse-string\obj\Debug\netcoreapp2.0\ReverseString.csprojResolveAssemblyReference.cache
