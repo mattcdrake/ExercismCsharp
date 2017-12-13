@@ -10,10 +10,8 @@ public static class Leap
             {
                 return (year % 400 == 0);
             }
-
             return true;
         }
-
         return false;
     }
 }
