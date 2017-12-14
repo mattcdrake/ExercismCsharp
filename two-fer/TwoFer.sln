@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoFer", "TwoFer.csproj", "{F9598032-2A90-4E49-941A-A1E94CC48545}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9598032-2A90-4E49-941A-A1E94CC48545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9598032-2A90-4E49-941A-A1E94CC48545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9598032-2A90-4E49-941A-A1E94CC48545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9598032-2A90-4E49-941A-A1E94CC48545}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBCCD781-3F6B-4396-8EF2-9542569F6F86}
+	EndGlobalSection
+EndGlobal
