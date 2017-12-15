@@ -1,0 +1,13 @@
+C:\Exercism\csharp\nucleotide-count\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Exercism\csharp\nucleotide-count\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Exercism\csharp\nucleotide-count\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Exercism\csharp\nucleotide-count\bin\Debug\netcoreapp2.0\NucleotideCount.deps.json
+C:\Exercism\csharp\nucleotide-count\bin\Debug\netcoreapp2.0\NucleotideCount.runtimeconfig.json
+C:\Exercism\csharp\nucleotide-count\bin\Debug\netcoreapp2.0\NucleotideCount.runtimeconfig.dev.json
+C:\Exercism\csharp\nucleotide-count\bin\Debug\netcoreapp2.0\NucleotideCount.dll
+C:\Exercism\csharp\nucleotide-count\bin\Debug\netcoreapp2.0\NucleotideCount.pdb
+C:\Exercism\csharp\nucleotide-count\obj\Debug\netcoreapp2.0\NucleotideCount.csproj.CoreCompileInputs.cache
+C:\Exercism\csharp\nucleotide-count\obj\Debug\netcoreapp2.0\NucleotideCount.AssemblyInfoInputs.cache
+C:\Exercism\csharp\nucleotide-count\obj\Debug\netcoreapp2.0\NucleotideCount.AssemblyInfo.cs
+C:\Exercism\csharp\nucleotide-count\obj\Debug\netcoreapp2.0\NucleotideCount.dll
+C:\Exercism\csharp\nucleotide-count\obj\Debug\netcoreapp2.0\NucleotideCount.pdb
