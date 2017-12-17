@@ -4,6 +4,27 @@ public static class CollatzConjecture
 {
     public static int Steps(int number)
     {
-        throw new NotImplementedException("You need to implement this function");
+        if (number <= 0)
+        {
+            throw new ArgumentException();
+        }
+
+        int count = 0;
+
+        while (number != 1)
+        {
+            if (number % 2 == 0)
+            {
+                number /= 2;
+                count++;
+            }
+            else
+            {
+                number = number * 3 + 1;
+                count++;
+            }
+        }
+
+        return count;
     }
 }
