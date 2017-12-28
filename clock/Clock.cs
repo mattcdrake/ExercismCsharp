@@ -2,29 +2,16 @@ using System;
 
 public struct Clock
 {
-    int hours, minutes;
-
     public Clock(int hours, int minutes)
     {
-        this.hours = hours % 24;
-
-        // Check for minute overflow
-        if (minutes < 60)
-        {
-            this.minutes = minutes;
-        }
-        else
-        {
-            hours += minutes / 60;
-            this.minutes = minutes % 60;
-        }
+        throw new NotImplementedException("You need to implement this function.");
     }
 
     public int Hours
     {
         get
         {
-            return hours;
+            throw new NotImplementedException("You need to implement this function.");
         }
     }
 
@@ -32,15 +19,13 @@ public struct Clock
     {
         get
         {
-            return minutes;
+            throw new NotImplementedException("You need to implement this function.");
         }
     }
 
     public Clock Add(int minutesToAdd)
     {
-        int hoursAdded = (minutes + minutesToAdd) / 60;
-        hours = (hours + hoursAdded) % 24;
-        minutes = (minutes + minutesToAdd) % 60;
+        throw new NotImplementedException("You need to implement this function.");
     }
 
     public Clock Subtract(int minutesToSubtract)
