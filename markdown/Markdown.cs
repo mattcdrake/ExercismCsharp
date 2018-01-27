@@ -59,14 +59,15 @@ public static class Markdown
         var headerTag = "h" + count;
         var headerHtml = Wrap(markdown.Substring(count + 1), headerTag);
 
+        inListAfter = false;
+
+        // Pulled inListAfter out of the if/else conditional
         if (list)
         {
-            inListAfter = false;
             return "</ul>" + headerHtml;
         }
         else
         {
-            inListAfter = false;
             return headerHtml;
         }
     }
@@ -77,14 +78,15 @@ public static class Markdown
         {
             var innerHtml = Wrap(ParseText(markdown.Substring(2), true), "li");
 
+            // Pulled inListAfter out of the if/else conditional
+            inListAfter = true;
+
             if (list)
             {
-                inListAfter = true;
                 return innerHtml;
             }
             else
             {
-                inListAfter = true;
                 return "<ul>" + innerHtml;
             }
         }
@@ -95,14 +97,15 @@ public static class Markdown
 
     private static string ParseParagraph(string markdown, bool list, out bool inListAfter)
     {
+
+        inListAfter = false;
+
         if (!list)
         {
-            inListAfter = false;
             return ParseText(markdown, list);
         }
         else
         {
-            inListAfter = false;
             return "</ul>" + ParseText(markdown, list);
         }
     }
@@ -137,8 +140,7 @@ public static class Markdown
 
         for (int i = 0; i < lines.Length; i++)
         {
-            var lineResult = ParseLine(lines[i], list, out list);
-            result += lineResult;
+            result += ParseLine(lines[i], list, out list);
         }
 
         if (list)
