@@ -2,47 +2,51 @@ using System;
 
 public class SpaceAge
 {
+    const double secondsEarthYear = 31557600;
+    long seconds;
+
     public SpaceAge(long seconds)
     {
+        this.seconds = seconds;
     }
 
     public double OnEarth()
     {
-        throw new NotImplementedException("You need to implement this function.");
+        return Math.Round(seconds / secondsEarthYear, 2);
     }
 
     public double OnMercury()
     {
-        throw new NotImplementedException("You need to implement this function.");
+        return Math.Round(OnEarth() / 0.2408467, 2);
     }
 
     public double OnVenus()
     {
-        throw new NotImplementedException("You need to implement this function.");
+        return Math.Round(OnEarth() / 0.61519726, 2);
     }
 
     public double OnMars()
     {
-        throw new NotImplementedException("You need to implement this function.");
+        return Math.Round(OnEarth() / 1.8808158, 2);
     }
 
     public double OnJupiter()
     {
-        throw new NotImplementedException("You need to implement this function.");
+        return Math.Round(OnEarth() / 11.862615, 2);
     }
 
     public double OnSaturn()
     {
-        throw new NotImplementedException("You need to implement this function.");
+        return Math.Round(OnEarth() / 29.447498, 2);
     }
 
     public double OnUranus()
     {
-        throw new NotImplementedException("You need to implement this function.");
+        return Math.Round(OnEarth() / 84.016846, 2);
     }
 
     public double OnNeptune()
     {
-        throw new NotImplementedException("You need to implement this function.");
+        return Math.Round(OnEarth() / 164.79132, 2);
     }
 }
